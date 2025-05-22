@@ -1,11 +1,66 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Plus, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
+interface Ativo {
+  id: number;
+  nome: string;
+  valor: string;
+  tipo: string;
+  descricao: string;
+}
+
 const Ativos: React.FC = () => {
+  const [ativos, setAtivos] = useState<Ativo[]>([
+    { id: 1, nome: 'Ativo A', valor: '400.000', tipo: 'Renda Fixa', descricao: '' },
+    { id: 2, nome: 'Ativo B', valor: '200.000', tipo: 'Renda Variável', descricao: '' }
+  ]);
+  const [searchTerm, setSearchTerm] = useState<string>('');
+  const [filteredAtivos, setFilteredAtivos] = useState<Ativo[]>([]);
+
+  // Filter ativos based on search term
+  useEffect(() => {
+    if (searchTerm.trim() === '') {
+      setFilteredAtivos(ativos);
+    } else {
+      const filtered = ativos.filter(
+        (ativo) => 
+          ativo.nome.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          ativo.tipo.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          ativo.valor.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setFilteredAtivos(filtered);
+    }
+  }, [searchTerm, ativos]);
+
+  // Load ativos from localStorage on component mount
+  useEffect(() => {
+    const loadedAtivos = localStorage.getItem('ativos');
+    if (loadedAtivos) {
+      setAtivos(JSON.parse(loadedAtivos));
+    } else {
+      // Initialize localStorage with default ativos
+      localStorage.setItem('ativos', JSON.stringify(ativos));
+    }
+
+    // Listen for new ativo event
+    const handleAddAtivo = () => {
+      console.log("New ativo event detected");
+      const updatedAtivos = JSON.parse(localStorage.getItem('ativos') || '[]');
+      setAtivos(updatedAtivos);
+    };
+
+    document.addEventListener('addAtivo', handleAddAtivo);
+
+    // Cleanup event listener
+    return () => {
+      document.removeEventListener('addAtivo', handleAddAtivo);
+    };
+  }, []);
+
   return (
     <div className="max-w-4xl mx-auto pb-20">
       <h1 className="text-3xl font-bold mb-8">HOLDINGS</h1>
@@ -23,20 +78,31 @@ const Ativos: React.FC = () => {
         <Search className="absolute left-4 top-3 text-gray-500" />
         <Input 
           placeholder="Buscar ativos" 
-          className="pl-12 pr-4 py-6 rounded-full" 
+          className="pl-12 pr-4 py-6 rounded-full"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
       
       <div className="border border-gray-300 rounded-lg mb-8">
-        {['A', 'B'].map((ativoLetter, index) => (
-          <div key={index} className="grid grid-cols-2 border-b border-gray-300 p-4 items-center">
-            <div className="flex items-center">
-              <div className="bg-gray-400 h-4 w-8 mr-4"></div>
-              <span>Ativo {ativoLetter}</span>
+        {filteredAtivos.length > 0 ? (
+          filteredAtivos.map((ativo) => (
+            <div key={ativo.id} className="grid grid-cols-2 border-b border-gray-300 p-4 items-center">
+              <div className="flex items-center">
+                <div className="bg-gray-400 h-4 w-8 mr-4"></div>
+                <div>
+                  <div>{ativo.nome}</div>
+                  <div className="text-xs text-gray-500">{ativo.tipo}</div>
+                </div>
+              </div>
+              <div className="text-right">R${ativo.valor}</div>
             </div>
-            <div className="text-right">R${index === 0 ? '400.000' : '200.000'}</div>
+          ))
+        ) : (
+          <div className="p-4 text-center text-gray-500">
+            Nenhum ativo encontrado
           </div>
-        ))}
+        )}
       </div>
       
       {/* Navegação inferior (específica para a seção de Holdings) */}

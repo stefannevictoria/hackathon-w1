@@ -23,6 +23,7 @@ import NovoInvestimento from "./pages/NovoInvestimento";
 import Holdings from "./pages/Holdings";
 import NovaHolding from "./pages/NovaHolding";
 import Ativos from "./pages/Ativos";
+import NovoAtivo from "./pages/NovoAtivo";
 import Perfil from "./pages/Perfil";
 
 const queryClient = new QueryClient();
@@ -51,6 +52,7 @@ const App = () => (
               <Route path="/holdings" element={<Holdings />} />
               <Route path="/nova-holding" element={<NovaHolding />} />
               <Route path="/ativos" element={<Ativos />} />
+              <Route path="/novo-ativo" element={<NovoAtivo />} />
               <Route path="/perfil" element={<Perfil />} />
             </Route>
             

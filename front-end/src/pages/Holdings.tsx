@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Plus } from 'lucide-react';
 import { Input } from '@/components/ui/input';
@@ -8,9 +8,47 @@ import { Button } from '@/components/ui/button';
 // Tipos de abas disponíveis na navegação inferior
 type TabType = 'dashboard' | 'ativos' | 'holdings';
 
+interface Holding {
+  id: number;
+  nome: string;
+  integrantes?: string;
+  descricao?: string;
+  ativos: {nome: string}[];
+}
+
 const Holdings: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('holdings');
   const [view, setView] = useState<'list' | 'details'>('list');
+  const [holdings, setHoldings] = useState<Holding[]>([
+    { id: 1, nome: 'Holding 1', ativos: [] },
+    { id: 2, nome: 'Holding 2', ativos: [] },
+    { id: 3, nome: 'Holding 3', ativos: [] },
+    { id: 4, nome: 'Holding 4', ativos: [] },
+  ]);
+  
+  // Load holdings from localStorage on component mount
+  useEffect(() => {
+    const loadedHoldings = localStorage.getItem('holdings');
+    if (loadedHoldings) {
+      setHoldings(JSON.parse(loadedHoldings));
+    } else {
+      // Initialize localStorage with default holdings
+      localStorage.setItem('holdings', JSON.stringify(holdings));
+    }
+
+    // Listen for new holding event
+    const handleAddHolding = () => {
+      const updatedHoldings = JSON.parse(localStorage.getItem('holdings') || '[]');
+      setHoldings(updatedHoldings);
+    };
+
+    document.addEventListener('addHolding', handleAddHolding);
+
+    // Cleanup event listener
+    return () => {
+      document.removeEventListener('addHolding', handleAddHolding);
+    };
+  }, []);
   
   return (
     <div className="max-w-4xl mx-auto pb-20">
@@ -33,9 +71,9 @@ const Holdings: React.FC = () => {
               <div>Sócios</div>
             </div>
             
-            {[1, 2, 3, 4].map((holdingNum) => (
-              <div key={holdingNum} className="grid grid-cols-3 border-b border-gray-300 p-4 items-center">
-                <div>Holding {holdingNum}</div>
+            {holdings.map((holding) => (
+              <div key={holding.id} className="grid grid-cols-3 border-b border-gray-300 p-4 items-center">
+                <div>{holding.nome}</div>
                 <div>
                   <div className="bg-gray-300 h-4 w-24"></div>
                 </div>

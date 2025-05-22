@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Search, ChevronUp, ChevronDown, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -32,12 +32,43 @@ const Patrimonios: React.FC = () => {
     }
   ]);
 
+  // Load patrimonios from localStorage on component mount
+  useEffect(() => {
+    const loadedPatrimonios = localStorage.getItem('patrimonios');
+    if (loadedPatrimonios) {
+      setPatrimonios(JSON.parse(loadedPatrimonios));
+    } else {
+      // Initialize localStorage with default patrimonios
+      localStorage.setItem('patrimonios', JSON.stringify(patrimonios));
+    }
+
+    // Listen for new patrimonio event
+    const handleAddPatrimonio = () => {
+      const updatedPatrimonios = JSON.parse(localStorage.getItem('patrimonios') || '[]');
+      setPatrimonios(updatedPatrimonios);
+    };
+
+    document.addEventListener('addPatrimonio', handleAddPatrimonio);
+
+    // Cleanup event listener
+    return () => {
+      document.removeEventListener('addPatrimonio', handleAddPatrimonio);
+    };
+  }, []);
+
   const toggleExpand = (id: number) => {
     setPatrimonios(
       patrimonios.map(p => 
         p.id === id ? { ...p, expanded: !p.expanded } : p
       )
     );
+
+    // Update localStorage when toggling expansion
+    localStorage.setItem('patrimonios', JSON.stringify(
+      patrimonios.map(p => 
+        p.id === id ? { ...p, expanded: !p.expanded } : p
+      )
+    ));
   };
 
   return (

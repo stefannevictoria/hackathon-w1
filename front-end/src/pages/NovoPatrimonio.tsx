@@ -4,6 +4,9 @@ import { ArrowLeft, Upload } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
 
+// Add a custom event for patrimonio creation
+const addPatrimonioEvent = new CustomEvent('addPatrimonio');
+
 const NovoPatrimonio: React.FC = () => {
   const [tipo, setTipo] = useState('');
   const [descricao, setDescricao] = useState('');
@@ -26,7 +29,22 @@ const NovoPatrimonio: React.FC = () => {
       return;
     }
 
-    // In a real application, you would send this data to your backend
+    // Create new patrimonio object
+    const novoPatrimonio = {
+      id: Date.now(),
+      titulo: `${tipo} - ${valorEstimado}`,
+      descricao,
+      expanded: false,
+      valor: valorEstimado
+    };
+
+    // Store the new patrimonio in localStorage
+    const patrimoniosExistentes = JSON.parse(localStorage.getItem('patrimonios') || '[]');
+    localStorage.setItem('patrimonios', JSON.stringify([...patrimoniosExistentes, novoPatrimonio]));
+
+    // Dispatch event to notify about the new patrimonio
+    document.dispatchEvent(addPatrimonioEvent);
+    
     toast.success('Patrimônio adicionado com sucesso!');
     navigate('/patrimonios');
   };
