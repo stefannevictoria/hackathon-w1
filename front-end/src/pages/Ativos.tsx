@@ -11,6 +11,7 @@ interface Ativo {
   valor: string;
   tipo: string;
   descricao: string;
+  arquivos?: string[];
 }
 
 const Ativos: React.FC = () => {
@@ -30,7 +31,8 @@ const Ativos: React.FC = () => {
         (ativo) => 
           ativo.nome.toLowerCase().includes(searchTerm.toLowerCase()) ||
           ativo.tipo.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          ativo.valor.toLowerCase().includes(searchTerm.toLowerCase())
+          ativo.valor.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          (ativo.descricao && ativo.descricao.toLowerCase().includes(searchTerm.toLowerCase()))
       );
       setFilteredAtivos(filtered);
     }
@@ -60,6 +62,20 @@ const Ativos: React.FC = () => {
       document.removeEventListener('addAtivo', handleAddAtivo);
     };
   }, []);
+
+  // Format currency value
+  const formatCurrency = (value: string) => {
+    // Remove non-numeric characters and convert to number
+    const numericValue = parseFloat(value.replace(/[^0-9.-]+/g, ''));
+    
+    // Format as currency
+    return numericValue.toLocaleString('pt-BR', { 
+      style: 'currency', 
+      currency: 'BRL',
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    });
+  };
 
   return (
     <div className="max-w-4xl mx-auto pb-20">
@@ -95,7 +111,7 @@ const Ativos: React.FC = () => {
                   <div className="text-xs text-gray-500">{ativo.tipo}</div>
                 </div>
               </div>
-              <div className="text-right">R${ativo.valor}</div>
+              <div className="text-right">{formatCurrency(ativo.valor)}</div>
             </div>
           ))
         ) : (

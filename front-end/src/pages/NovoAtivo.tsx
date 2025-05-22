@@ -5,6 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+import { Label } from '@/components/ui/label';
 import {
   Select,
   SelectContent,
@@ -20,6 +21,7 @@ interface Ativo {
   valor: string;
   tipo: string;
   descricao: string;
+  arquivos?: string[];
 }
 
 const tiposAtivo = [
@@ -35,6 +37,18 @@ const NovoAtivo: React.FC = () => {
   const [valor, setValor] = useState('');
   const [tipo, setTipo] = useState('');
   const [descricao, setDescricao] = useState('');
+  const [files, setFiles] = useState<FileList | null>(null);
+  const [uploadedFileNames, setUploadedFileNames] = useState<string[]>([]);
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files.length > 0) {
+      setFiles(e.target.files);
+      
+      // Display file names
+      const fileNames = Array.from(e.target.files).map(file => file.name);
+      setUploadedFileNames(fileNames);
+    }
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -42,6 +56,13 @@ const NovoAtivo: React.FC = () => {
     if (!valor || !tipo) {
       toast.error("Por favor, preencha os campos obrigatórios");
       return;
+    }
+
+    // Handle file uploads (in a real app, this would upload to a server)
+    let fileData: string[] = [];
+    if (files && files.length > 0) {
+      fileData = Array.from(files).map(file => file.name);
+      toast.info(`${files.length} arquivos serão enviados`);
     }
 
     // Generate new ID (max ID + 1)
@@ -56,7 +77,8 @@ const NovoAtivo: React.FC = () => {
       nome: `Ativo ${String.fromCharCode(64 + newId)}`, // A, B, C, etc.
       valor,
       tipo,
-      descricao
+      descricao,
+      arquivos: fileData
     };
 
     // Add to localStorage
@@ -86,9 +108,9 @@ const NovoAtivo: React.FC = () => {
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label htmlFor="valor" className="block mb-2">
+            <Label htmlFor="valor" className="block mb-2">
               Valor investido:
-            </label>
+            </Label>
             <Input
               id="valor"
               type="text"
@@ -100,9 +122,9 @@ const NovoAtivo: React.FC = () => {
           </div>
 
           <div>
-            <label htmlFor="tipo" className="block mb-2">
+            <Label htmlFor="tipo" className="block mb-2">
               Tipo:
-            </label>
+            </Label>
             <Select value={tipo} onValueChange={setTipo} required>
               <SelectTrigger className="w-full rounded-full">
                 <SelectValue placeholder="Selecione o tipo de ativo" />
@@ -118,9 +140,9 @@ const NovoAtivo: React.FC = () => {
           </div>
 
           <div>
-            <label htmlFor="descricao" className="block mb-2">
+            <Label htmlFor="descricao" className="block mb-2">
               Descrição:
-            </label>
+            </Label>
             <Textarea
               id="descricao"
               value={descricao}
@@ -130,12 +152,30 @@ const NovoAtivo: React.FC = () => {
           </div>
 
           <div>
-            <label htmlFor="documentos" className="block mb-2">
+            <Label htmlFor="documentos" className="block mb-2">
               Upload de documentos:
-            </label>
-            <div className="border border-gray-300 rounded-3xl p-4 text-center min-h-[100px] flex flex-col items-center justify-center">
+            </Label>
+            <div 
+              className="border border-gray-300 rounded-3xl p-4 text-center min-h-[100px] flex flex-col items-center justify-center cursor-pointer hover:bg-gray-50 transition-colors"
+              onClick={() => document.getElementById('fileInputAtivo')?.click()}
+            >
+              <input 
+                type="file" 
+                id="fileInputAtivo"
+                className="hidden" 
+                onChange={handleFileChange} 
+                multiple
+              />
               <Upload className="mb-2" size={24} />
-              <p className="text-gray-500">Insira ou arraste para esse campo</p>
+              {uploadedFileNames.length > 0 ? (
+                <div className="text-gray-500 text-center w-full overflow-y-auto max-h-20">
+                  {uploadedFileNames.map((fileName, index) => (
+                    <p key={index} className="truncate">{fileName}</p>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-gray-500">Insira ou arraste para esse campo</p>
+              )}
             </div>
           </div>
         </div>

@@ -1,21 +1,115 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { Plus, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
-// Sample data for the pie chart
-const data = [
-  { name: 'Imóveis', value: 60 },
-  { name: 'Ações', value: 25 },
-  { name: 'Renda Fixa', value: 15 }
-];
-
-const COLORS = ['#8884d8', '#0088FE', '#82ca9d'];
+// Chart color palette
+const COLORS = ['#8884d8', '#0088FE', '#82ca9d', '#FFBB28', '#FF8042'];
 
 const Dashboard: React.FC = () => {
   const { user } = useAuth();
+  const [totalPatrimony, setTotalPatrimony] = useState(0);
+  const [chartData, setChartData] = useState([
+    { name: 'Imóveis', value: 60 },
+    { name: 'Ações', value: 25 },
+    { name: 'Renda Fixa', value: 15 }
+  ]);
+
+  // Load all assets data from localStorage and calculate total value
+  useEffect(() => {
+    const calculateTotalPatrimony = () => {
+      let total = 0;
+      let assetsByType: Record<string, number> = {};
+
+      // Get patrimônios
+      const patrimonios = JSON.parse(localStorage.getItem('patrimonios') || '[]');
+      patrimonios.forEach((item: any) => {
+        const value = parseFloat(item.valor?.replace(/[^0-9.-]+/g, '') || '0');
+        total += value;
+        
+        // Add to asset type aggregation
+        if (item.tipo) {
+          assetsByType[item.tipo] = (assetsByType[item.tipo] || 0) + value;
+        } else {
+          assetsByType['Patrimônios'] = (assetsByType['Patrimônios'] || 0) + value;
+        }
+      });
+
+      // Get ativos
+      const ativos = JSON.parse(localStorage.getItem('ativos') || '[]');
+      ativos.forEach((item: any) => {
+        const value = parseFloat(item.valor?.replace(/[^0-9.-]+/g, '') || '0');
+        total += value;
+        
+        // Add to asset type aggregation
+        if (item.tipo) {
+          assetsByType[item.tipo] = (assetsByType[item.tipo] || 0) + value;
+        } else {
+          assetsByType['Outros Ativos'] = (assetsByType['Outros Ativos'] || 0) + value;
+        }
+      });
+
+      // Get investimentos
+      const investimentos = JSON.parse(localStorage.getItem('investimentos') || '[]');
+      investimentos.forEach((item: any) => {
+        const value = parseFloat(item.valor?.replace(/[^0-9.-]+/g, '') || '0');
+        total += value;
+        
+        // Add to asset type aggregation
+        if (item.tipo) {
+          const displayName = item.tipo === 'acoes' ? 'Ações' : 
+                              item.tipo === 'fundos' ? 'Fundos' : 
+                              item.tipo === 'renda_fixa' ? 'Renda Fixa' : item.tipo;
+          assetsByType[displayName] = (assetsByType[displayName] || 0) + value;
+        } else {
+          assetsByType['Outros Investimentos'] = (assetsByType['Outros Investimentos'] || 0) + value;
+        }
+      });
+
+      // Update total value
+      setTotalPatrimony(total);
+      
+      // Update chart data
+      const newChartData = Object.entries(assetsByType).map(([name, value]) => ({
+        name,
+        value
+      }));
+      
+      if (newChartData.length > 0) {
+        setChartData(newChartData);
+      }
+    };
+
+    calculateTotalPatrimony();
+
+    // Setup event listeners for updates
+    const handleAssetUpdate = () => {
+      calculateTotalPatrimony();
+    };
+
+    document.addEventListener('addPatrimonio', handleAssetUpdate);
+    document.addEventListener('addAtivo', handleAssetUpdate);
+    document.addEventListener('addInvestimento', handleAssetUpdate);
+
+    // Cleanup event listeners
+    return () => {
+      document.removeEventListener('addPatrimonio', handleAssetUpdate);
+      document.removeEventListener('addAtivo', handleAssetUpdate);
+      document.removeEventListener('addInvestimento', handleAssetUpdate);
+    };
+  }, []);
+
+  // Format currency value
+  const formatCurrency = (value: number) => {
+    return value.toLocaleString('pt-BR', { 
+      style: 'currency', 
+      currency: 'BRL',
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    });
+  };
 
   return (
     <div className="max-w-7xl mx-auto">
@@ -25,25 +119,25 @@ const Dashboard: React.FC = () => {
       <div className="w1-card mb-12">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
           <div>
-            <h2 className="text-4xl font-bold">R$3.200.000,00</h2>
+            <h2 className="text-4xl font-bold">{formatCurrency(totalPatrimony)}</h2>
             <p className="text-gray-600 mt-2">
-              em deserunt totam aut dignissimos fugiat in temporibus facere eos alias veritatis 
-              non soluta rerum qui repellendus fugiat hic magni aliquid.
+              Valor total dos seus ativos, investimentos e patrimônios cadastrados
             </p>
           </div>
           <div className="w-full md:w-48 h-48 mt-4 md:mt-0">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Pie
-                  data={data}
+                  data={chartData}
                   cx="50%"
                   cy="50%"
                   innerRadius={60}
                   outerRadius={80}
                   paddingAngle={5}
                   dataKey="value"
+                  label={({name, percent}) => `${name}: ${(percent * 100).toFixed(0)}%`}
                 >
-                  {data.map((entry, index) => (
+                  {chartData.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                   ))}
                 </Pie>
