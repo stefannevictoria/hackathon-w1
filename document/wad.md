@@ -99,6 +99,58 @@ Descrição da solução proposta, seus diferenciais e impacto esperado.
 
 Esta subseção (2.4) apresenta o Canvas de Proposta de Valor, destacando os elementos essenciais que tornam o produto relevante para seu público-alvo.  A ferramenta permite mapear tarefas, dores e ganhos dos clientes, auxiliando no alinhamento da solução desenvolvida às necessidades reais do parceiro de projeto, garantindo maior aderência e criação de valor.
 
+<div align="center">
+   <sub>Figura 2: Canvas Proposta de Valor</sub><br>
+   <img src="/assets/canvas.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+**Clientes**
+
+- **Dores:**
+
+  - Falta de entendimento sobre o que é uma holding e seus benefícios.
+  - Processos burocráticos e papelada excessiva.
+  - Interface de atendimento tradicional pouco acessível ou digitalizada.
+  - Falta de autonomia para visualizar seus ativos e simular cenários.
+  - Complexidade de termos jurídicos e fiscais.
+
+- **Ganhos**
+
+  - Simuladores fáceis de usar que mostram economia tributária e proteção patrimonial.
+  - Acompanhamento visual e interativo do crescimento do patrimônio.
+  - Redução de conflitos familiares via planejamento sucessório claro.
+  - Interface acessível e adaptada ao público-alvo (ex.: fontes maiores, contrastes, explicações visuais).
+
+- **Tarefas Clientes** 
+
+  - Entender se vale a pena abrir uma holding.
+  - Simular economia tributária de forma acessível.
+  - Acompanhar o crescimento e evolução do patrimônio ao longo do tempo.
+  - Compartilhar dados com seus consultores W1 com praticidade e segurança.
+
+**Solução**
+
+- **Analgésicos**
+
+  - Fácil navegação e linguagem acessível.
+  - Explicações visuais e relatórios automáticos que evitam necessidade de conhecimento técnico.
+  - Plataforma única com todas as funcionalidades, evitando necessidade de múltiplos canais.
+
+- **Ganhos**
+
+  - Economia tributária demonstrada visualmente.
+  - Comparativo do cenário “com” e “sem” W1.
+  - Confiança e clareza para decisões patrimoniais importantes.
+
+- **Produtos e Serviços**
+
+  - Simulador de holding com cálculo de economia tributária.
+  - Dashboard com gráficos de evolução patrimonial.
+  - Onboarding gamificado para abertura de holding.
+  - Metáforas visuais que explicam benefícios da W1.
+
 
 # <a name="c3"></a>3. Projeto da Aplicação Web
 
