@@ -40,6 +40,57 @@ Esta subseção (2.2) apresenta a Análise SWOT da W1. A Análise SWOT é uma fe
 
 Olhando para o contexto da W1, foram identificados os seguintes pontos:
 
+<div align="center">
+   <sub>Figura 1: Análise SWOT</sub><br>
+   <img src="/assets/swot.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+**Forças (Strengths)**
+
+- **Especialização em patrimônio familiar e planejamento sucessório**
+    A W1 atua com foco claro em famílias empresárias, oferecendo soluções personalizadas que unem governança, planejamento patrimonial e jurídico, o que a diferencia de players mais genéricos.
+
+- **Modelo multidisciplinar e integrativo**
+    A abordagem da W1 une consultoria, educação, tecnologia e governança, formando uma atuação holística que vai além do financeiro e atinge aspectos humanos e educacionais da sucessão e legado.
+
+- **Ênfase em relações de longo prazo**
+    A W1 constrói vínculos duradouros com famílias, o que é um diferencial importante em um setor onde a confiança e a confidencialidade são essenciais.
+
+**Fraquezas (Weaknesses)**
+
+- **Baixo reconhecimento de marca no mercado amplo**
+    Apesar da proposta sólida, a W1 ainda não tem uma marca amplamente reconhecida fora de nichos específicos de alto patrimônio.
+
+- **Dependência de mão de obra altamente especializada**
+    A atuação exige profissionais com habilidades técnicas e comportamentais específicas, o que pode limitar a escalabilidade e gerar custos altos de pessoal.
+
+- **Oferta de serviços complexos para leigos**
+    O cliente-alvo, mesmo com grande patrimônio, nem sempre compreende os benefícios de governança e sucessão estruturada, dificultando a comunicação e o convencimento do valor agregado.
+
+**Oportunidades (Opportunities)**
+
+- **Crescimento da demanda por planejamento sucessório no Brasil**
+    Com o aumento da conscientização sobre a sucessão familiar e a alta concentração de empresas familiares no país, cresce a procura por serviços como os da W1.
+
+- **Expansão da educação patrimonial e financeira**
+    A W1 pode fortalecer sua vertical educacional (workshops, programas para herdeiros) como diferencial, atraindo novas gerações e estabelecendo vínculos com famílias de forma precoce.
+
+- **Uso de tecnologia para escalabilidade**
+    O desenvolvimento de plataformas digitais pode automatizar partes do processo de diagnóstico e acompanhamento, melhorando a eficiência e possibilitando crescimento.
+
+**Ameaças (Threats)**
+
+- **Concorrência com grandes bancos e multifamily offices**
+    Instituições com recursos e marca consolidada podem oferecer serviços similares, muitas vezes com mais estrutura e alcance comercial.
+
+- **Mudanças regulatórias e fiscais**
+    Alterações na legislação tributária ou sucessória podem exigir reformulações nas estratégias dos clientes e impactar a atuação da empresa.
+
+- **Instabilidade econômica**
+    Crises econômicas podem adiar decisões sobre planejamento patrimonial, reduzindo a entrada de novos clientes.
+
 ## 2.3 Solução
 
 Descrição da solução proposta, seus diferenciais e impacto esperado.
