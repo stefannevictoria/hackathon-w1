@@ -36,7 +36,103 @@ A compreensão do cenário atual da W1 nos permitiu desenvolver uma solução qu
 
 ## 2.1 Forças de Porter
 
-Análise das cinco forças competitivas de Michael Porter no contexto do projeto.
+### O que são as Forças de porter?
+
+s Forças de Porter são um método utilizado para entender o posicionamento de mercado, com foco na análise da competição dentro desse espaço(Cassaroto, 2024) .
+
+### O que é a empresa W1?
+A W1 é uma empresa de consultoria financeira, possuindo um ecossistema diverso, para atender toda sua demanda de clientes, desde a área tecnológica e a área de investimento até a área de business.
+
+---
+
+# Análise das 5 Forças de Porter - W1 Holdings
+
+## 1. Rivalidade entre Concorrentes
+
+**Intensidade:** Alta
+
+### Fatores-chave:
+- **Número de concorrentes:** Há um número crescente de escritórios de advocacia, consultorias financeiras, family offices e até mesmo contadores especializados que oferecem serviços de planejamento patrimonial e sucessório, incluindo a criação de holdings. O mercado está se tornando mais concorrido.
+- **Diferenciação:** Embora o serviço de holding patrimonial tenha uma base comum, a diferenciação da W1 pode vir da sua expertise específica (ex: foco em determinado tipo de patrimônio ou família), da qualidade do atendimento, da personalização das soluções, da tecnologia utilizada para gerenciar o processo e da reputação (casos de sucesso, indicações). Sem uma diferenciação clara, a rivalidade se intensifica.
+- **Custos fixos:** Os custos fixos para uma consultoria não são baixíssimos (estrutura, equipe, softwares, marketing), o que pode levar a uma pressão por volume ou precificação competitiva para cobrir essas despesas, aumentando a rivalidade.
+
+---
+
+## 2. Ameaça de Novos Entrantes
+
+**Barreiras:** Moderada a Alta
+
+- **Economias de escala:** Não são uma barreira significativa para uma consultoria de holding. O serviço é altamente personalizado e dificilmente se beneficia de economias de escala tradicionais. No entanto, consultorias maiores podem ter mais recursos para marketing e para atrair talentos.
+- **Legislação:** A complexidade jurídica, tributária e contábil envolvida na criação de holdings é uma barreira importante. É preciso ter conhecimento especializado e experiência prática, o que exige profissionais qualificados (advogados, contadores) e credibilidade. As regulamentações podem ser um obstáculo para quem não as domina.
+- **Capital necessário:** O capital inicial para abrir uma consultoria de porte médio não é exorbitante, mas é preciso investir em qualificação profissional, estrutura de atendimento, tecnologia e marketing para se posicionar no mercado. A formação de uma equipe multidisciplinar e o acesso a redes de relacionamento também são cruciais.
+- **Diferenciação e Reputação:** Entrantes novos precisam construir uma reputação e se diferenciar para ganhar a confiança de clientes que estão lidando com um patrimônio familiar significativo. Isso leva tempo e investimento.
+
+---
+
+## 3. Poder de Barganha dos Fornecedores
+
+**Concentração:** Baixa a Moderada
+
+- **Poucos fornecedores dominantes?:** Para uma consultoria de holdings, os "fornecedores" primários são os profissionais especializados (advogados tributaristas, sucessórios, societários; contadores, planejadores financeiros) e softwares específicos de gestão patrimonial ou legal.
+- Não há uma concentração alta de fornecedores dominantes nesses mercados, mas profissionais de altíssimo nível ou softwares muito específicos podem ter maior poder de barganha. O custo de troca de um software ou de um especialista chave pode ser relevante.
+
+### Impacto:
+- **Controle de preços:** O custo dos honorários dos profissionais e das licenças de software pode impactar a estrutura de custos da W1. No entanto, a W1 tem flexibilidade para buscar diferentes fornecedores.
+- **Matérias-primas críticas:** As "matérias-primas" são o conhecimento técnico e a experiência. A escassez de profissionais altamente qualificados no mercado pode dar a eles maior poder de barganha salarial ou de honorários.
+
+---
+
+## 4. Poder de Barganha dos Clientes
+
+**Sensibilidade a preços:** Alta a Moderada
+
+- **Clientes têm alternativas?:** Sim, como mencionado na rivalidade, os clientes da W1, geralmente pessoas ou famílias com patrimônio significativo, têm diversas alternativas para o planejamento sucessório e tributário. Eles podem buscar outras consultorias, escritórios de advocacia especializados ou até mesmo tentar soluções mais simples com seus contadores atuais.
+- **Informação:** Clientes com alto poder aquisitivo tendem a ser bem informados e buscam a melhor solução para seu patrimônio. Eles podem comparar propostas e negociar condições.
+- **Custos de troca:** Para o cliente, o custo de troca de uma consultoria pode não ser tão alto antes do início do projeto, mas se torna relevante após o processo ser iniciado, o que pode diminuir um pouco seu poder de barganha durante a execução do projeto.
+- **Poder de negociação:** Clientes com um patrimônio muito elevado podem ter maior poder de negociação devido ao potencial de receita que representam.
+
+---
+
+## 5. Ameaça de Produtos Substitutos
+
+**Tendências:** Moderada
+
+- **Tecnologia:** A tecnologia pode oferecer alternativas parciais. Plataformas digitais ou softwares de planejamento financeiro podem, em teoria, automatizar algumas etapas do planejamento sucessório, embora não substituam a consultoria jurídica e estratégica personalizada. Modelos de gestão patrimonial automatizados ou robôs-advisors podem ser considerados substitutos para aspectos mais gerais do planejamento, mas não para a complexidade de uma holding patrimonial.
+- **Mudanças de hábito:** A busca por soluções mais simples e rápidas pode levar clientes a optar por alternativas menos complexas que uma holding, como testamentos, doações diretas ou seguros de vida, se bem que estes raramente oferecem os mesmos benefícios fiscais e de gestão.
+- **Autogestão:** Em alguns casos, famílias podem tentar gerir o patrimônio por conta própria, utilizando apenas os serviços de um contador ou advogado generalista, sem uma consultoria especializada em holdings.
+
+---
+
+## Fontes de Pesquisa Sugeridas
+
+### Associações de profissionais:
+- IBGC (Instituto Brasileiro de Governança Corporativa)
+- OAB (Ordem dos Advogados do Brasil) e conselhos regionais
+- CFC (Conselho Federal de Contabilidade)
+- ANBIMA (Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais)
+
+### Relatórios de mercado e consultorias:
+- PwC, Deloitte, KPMG, EY
+- Empresas de pesquisa de mercado
+
+### Publicações especializadas e acadêmicas:
+- Revistas e periódicos jurídicos
+- Artigos acadêmicos e teses sobre planejamento patrimonial e governança familiar
+
+### Notícias e análises de mercado:
+- Valor Econômico, Exame, Infomoney
+
+---
+
+#### Fontes Adicionais para Validação
+
+##### Tributação de Holdings:
+- Receita Federal - Instrução Normativa 1.634/2016
+
+##### Jurisprudência:
+- STJ - Recurso Especial 1.781.741
+
+
 
 ## 2.2 Análise SWOT
 
@@ -380,3 +476,15 @@ FURLANI, Bruna. Holding Patrimonial: Guia Completo sobre Como Funciona. InfoMone
 MENESES, Amanda. Guia Completo sobre Holding. InvestNews, 2024. Disponível em: https://investnews.com.br/guias/holding/. Acesso em: 22 de maio de 2025.
 
 AMAZON WEB SERVICES, INC. O que é o aprendizado profundo em IA? Amazon Web Services (AWS), s.d. Disponível em: <https://aws.amazon.com/pt/what-is/deep-learning/#:~:text=e%20aprendizado%20profundo?-,O%20que%20%C3%A9%20o%20aprendizado%20profundo%20em%20IA?,arquivo%20de%20som%20em%20texto.>. Acesso em: 23 de maio de 2025.
+
+CASAROTTO, Camila. O que são as 5 Forças de Porter: saiba a importância para a estratégia do seu negócio. Rock Content, 2024. Disponível em: https://rockcontent.com/br/blog/5-forcas-de-porter/. Acesso em: 23 de maio de 2025.
+
+Lei das Sociedades por Ações (Lei 6.404/76)
+Brasil. Lei nº 6.404, de 15 de dezembro de 1976. Dispõe sobre as Sociedades por Ações. Brasília, DF: Presidência da República, 1976. Acesso em: 23 maio 2025.
+
+Confea. Tabelas de ITCMD por Estado. Brasília, DF: Confea, [s.d.]. Disponível em: https://www.confea.org.br/itcmd. Acesso em: 23 maio 2025.
+
+Receita Federal do Brasil. Instrução Normativa RFB nº 1.634, de 6 de maio de 2016. Dispõe sobre o Cadastro Nacional da Pessoa Jurídica (CNPJ). Brasília, DF: Receita Federal do Brasil, 2016. Acesso em: 23 maio 2025.
+
+Análise Editorial. Anuário Análise Advocacia 2023/2024. São Paulo: Análise Advocacia, 2023. Disponível em: https://analise.com/publicacoes/analise-advocacia. Acesso em: 23 maio 2025.
+
