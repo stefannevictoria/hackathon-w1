@@ -1,5 +1,10 @@
 # Hackathon W1
 
+<p align="center">
+<img src="/assets/logo.png" alt="Certifica" border="0">
+</p>
+
+
 ## PK
 
 ## :student: Integrantes: 
@@ -8,6 +13,10 @@
 - <a href="https://www.linkedin.com/in/stefanne-soares-9b31a8256/">Stefanne Victória Andrade Soares</a>
 
 ## 📝 Descrição
+
+Este projeto foi desenvolvido durante um hackathon organizado pela Poli Júnior para a empresa W1, especializada em consultoria patrimonial. Nosso desafio foi criar um site que ajude clientes da W1 a entender e simular a criação de holdings patrimoniais – um tipo de empresa usada para organizar e proteger bens pessoais, além de otimizar a carga tributária.
+
+A solução que propusemos é um protótipo de site com foco na experiência do usuário. Ele permite que os clientes explorem de forma simples os benefícios de ter uma holding, com páginas como: login, visão geral, gerenciamento de patrimônios, área de investimentos, simulação de holdings, perfil e um chat (a ser implementado futuramente).
 
 ## 💻 Como executar
 
