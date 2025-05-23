@@ -30,6 +30,12 @@ Breve introdução sobre o projeto, seu contexto, objetivos e público-alvo.
 
 # <a name="c2"></a>2. Visão Geral da Aplicação Web
 
+Esta seção apresenta a visão geral da aplicação web de simulação de holdings, detalhando seu escopo e o valor que ela trará para a W1.
+
+Para isso, realizamos uma análise aprofundada da W1, compreendendo seu legado, objetivos estratégicos e posicionamento no mercado, além de seus diferenciais competitivos. Essa análise foi fundamental para alinhar o projeto às necessidades e expectativas da empresa, garantindo que a aplicação não apenas atenda aos requisitos técnicos, mas também contribua significativamente para o sucesso e inovação da W1.
+
+A compreensão do cenário atual da W1 nos permitiu desenvolver uma solução que se integra harmoniosamente com seus processos existentes, ao mesmo tempo em que oferece um diferencial competitivo no segmento de simulação de holdings.
+
 ## 2.1 Forças de Porter
 
 Análise das cinco forças competitivas de Michael Porter no contexto do projeto.
