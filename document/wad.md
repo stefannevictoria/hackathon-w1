@@ -171,17 +171,36 @@ Esta subseção (2.4) apresenta o Canvas de Proposta de Valor, destacando os ele
 
 ## 3.1 Wireframes
 
-Imagens ou links para os wireframes das telas principais.
+Esta subseção (3.1) apresenta os wireframes das telas principais da aplicação, ilustrando a estrutura básica e o fluxo de navegação antes da aplicação de elementos visuais e de design.
+
+<div align="center">
+   <sub>Figura 3: Wireframes da aplicação</sub><br>
+   <img src="/assets/wireframes-w1.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+Os wireframes desenvolvidos para o MVP da aplicação tiveram como objetivo estruturar visualmente as principais funcionalidades da plataforma, garantindo clareza na navegação e na hierarquia das informações. Esses protótipos de baixa fidelidade serviram como base para validar a experiência do usuário.
+
+Foram criados wireframes para as seguintes telas:
+
+- Login: tela inicial para acesso à plataforma, com campos de autenticação.
+
+- Menu principal: painel de navegação com acesso às seções de Investimentos, Patrimônio, Holdings e Perfil.
+
+- Investimentos: layout com cards ou gráficos representando os ativos simulados.
+
+- Patrimônio: exibição do patrimônio consolidado da holding simulada.
+
+- Holdings: tela com opções para criar e editar estruturas de holding, facilitando a visualização do planejamento sucessório.
+
+- Perfil: espaço destinado às informações do usuário e configurações da conta.
+
+Os wireframes foram desenvolvidos utilizando a ferramenta Figma, priorizando uma disposição intuitiva dos elementos para otimizar a usabilidade e reduzir a curva de aprendizado dos usuários. Você pode acessá-los com melhor qualidade pelo [link](https://www.figma.com/design/GyiMEXQTwchJMQOMG1L2Ld/WIREFRAMES---HACKATON-W1?node-id=1-761&t=vxZKedk5NmvA8IYq-1).
 
 ## 3.2 Guia de Estilos
 
 Paleta de cores, fontes, ícones e componentes UI utilizados.
-
-## 3.3 Protótipo de Alta Fidelidade
-
-Imagens ou links para o protótipo com design final da aplicação.
-
-
 
 # <a name="c4"></a>4. Desenvolvimento da Aplicação Web
 
