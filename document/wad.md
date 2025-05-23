@@ -36,7 +36,9 @@ Análise das cinco forças competitivas de Michael Porter no contexto do projeto
 
 ## 2.2 Análise SWOT
 
-Apresente os pontos fortes, fracos, oportunidades e ameaças da aplicação.
+Esta subseção (2.2) apresenta a Análise SWOT da W1. A Análise SWOT é uma ferramenta de planejamento estratégico que auxilia na avaliação de fatores internos e externos que influenciam a organização, como forças (vantagens e diferenciais internos), fraquezas (pontos de melhoria ou limitações internas), oportunidades (fatores externos favoráveis ao crescimento) e ameaças (riscos e desafios externos).
+
+Olhando para o contexto da W1, foram identificados os seguintes pontos:
 
 ## 2.3 Solução
 
@@ -44,8 +46,7 @@ Descrição da solução proposta, seus diferenciais e impacto esperado.
 
 ## 2.4 Canvas de Proposta de Valor
 
-Representação visual da proposta de valor da aplicação.
-
+Esta subseção (2.4) apresenta o Canvas de Proposta de Valor, destacando os elementos essenciais que tornam o produto relevante para seu público-alvo.  A ferramenta permite mapear tarefas, dores e ganhos dos clientes, auxiliando no alinhamento da solução desenvolvida às necessidades reais do parceiro de projeto, garantindo maior aderência e criação de valor.
 
 
 # <a name="c3"></a>3. Projeto da Aplicação Web
