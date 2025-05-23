@@ -322,7 +322,13 @@ Entretanto, essa funcionalidade ainda não foi implementada nesta versão da apl
 
 # <a name="c5"></a>5. Conclusões e Trabalhos Futuros
 
-Reflexão sobre o processo, principais aprendizados e próximos passos para evolução do projeto.
+Ao apresentar a aplicação web de simulação de holdings, é evidente que, embora seja um ponto de partida sólido, existem oportunidades de aprimoramento e consolidação futura. Nosso objetivo é que ela se torne uma ferramenta otimizada, totalmente funcional, segura e rápida.
+
+Com isso em mente, como próximos passos, pensamos na implementação de Inteligência Artificial Generativa baseada em deep learning. Isso envolveria o treinamento de uma IA com um extenso banco de dados, contendo informações quase completas para a simulação de holdings. Essa base de dados incluiria respaldo legislativo, exemplos de holdings, detalhes sobre criação e simulações patrimoniais, entre outros dados cruciais para aprimorar a rede neural da aplicação e oferecer sugestões ainda mais precisas.
+
+Além disso, a segurança dos dados é primordial. Para isso, consideramos a utilização de blockchain para o armazenamento seguro de informações, especialmente dados criptografados. Isso proporcionaria aos usuários maior tranquilidade ao saber que seus dados sensíveis estão protegidos, mesmo ao realizar uploads.
+
+Migrando para a interface do usuário, almejamos o desenvolvimento de um versionamento mobile e a criação de um aplicativo dedicado. O objetivo é ir além da aplicação web, oferecendo maior praticidade e facilidade de acesso, o que, por sua vez, contribuirá significativamente para uma experiência do usuário ainda mais fluida e completa.
 
 
 
