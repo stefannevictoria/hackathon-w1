@@ -36,29 +36,29 @@ A compreensão do cenário atual da W1 nos permitiu desenvolver uma solução qu
 
 ## 2.1 Forças de Porter
 
-### O que são as Forças de porter?
+Esta subseção (2.1) fará uma análise das 5 Forças de Porter da W1.
 
-s Forças de Porter são um método utilizado para entender o posicionamento de mercado, com foco na análise da competição dentro desse espaço(Cassaroto, 2024) .
+As 5 Forças de Porter são um método utilizado para entender o posicionamento de mercado, com foco na análise da competição dentro desse espaço(Cassaroto, 2024) .
 
-### O que é a empresa W1?
 A W1 é uma empresa de consultoria financeira, possuindo um ecossistema diverso, para atender toda sua demanda de clientes, desde a área tecnológica e a área de investimento até a área de business.
 
----
 
-# Análise das 5 Forças de Porter - W1 Holdings
 
-## 1. Rivalidade entre Concorrentes
+### Análise das 5 Forças de Porter - W1 Holdings
+
+#### 1. Rivalidade entre Concorrentes
 
 **Intensidade:** Alta
 
-### Fatores-chave:
+**Fatores-chave:**
+
 - **Número de concorrentes:** Há um número crescente de escritórios de advocacia, consultorias financeiras, family offices e até mesmo contadores especializados que oferecem serviços de planejamento patrimonial e sucessório, incluindo a criação de holdings. O mercado está se tornando mais concorrido.
 - **Diferenciação:** Embora o serviço de holding patrimonial tenha uma base comum, a diferenciação da W1 pode vir da sua expertise específica (ex: foco em determinado tipo de patrimônio ou família), da qualidade do atendimento, da personalização das soluções, da tecnologia utilizada para gerenciar o processo e da reputação (casos de sucesso, indicações). Sem uma diferenciação clara, a rivalidade se intensifica.
 - **Custos fixos:** Os custos fixos para uma consultoria não são baixíssimos (estrutura, equipe, softwares, marketing), o que pode levar a uma pressão por volume ou precificação competitiva para cobrir essas despesas, aumentando a rivalidade.
 
----
 
-## 2. Ameaça de Novos Entrantes
+
+#### 2. Ameaça de Novos Entrantes
 
 **Barreiras:** Moderada a Alta
 
@@ -67,22 +67,23 @@ A W1 é uma empresa de consultoria financeira, possuindo um ecossistema diverso,
 - **Capital necessário:** O capital inicial para abrir uma consultoria de porte médio não é exorbitante, mas é preciso investir em qualificação profissional, estrutura de atendimento, tecnologia e marketing para se posicionar no mercado. A formação de uma equipe multidisciplinar e o acesso a redes de relacionamento também são cruciais.
 - **Diferenciação e Reputação:** Entrantes novos precisam construir uma reputação e se diferenciar para ganhar a confiança de clientes que estão lidando com um patrimônio familiar significativo. Isso leva tempo e investimento.
 
----
 
-## 3. Poder de Barganha dos Fornecedores
+
+#### 3. Poder de Barganha dos Fornecedores
 
 **Concentração:** Baixa a Moderada
 
 - **Poucos fornecedores dominantes?:** Para uma consultoria de holdings, os "fornecedores" primários são os profissionais especializados (advogados tributaristas, sucessórios, societários; contadores, planejadores financeiros) e softwares específicos de gestão patrimonial ou legal.
 - Não há uma concentração alta de fornecedores dominantes nesses mercados, mas profissionais de altíssimo nível ou softwares muito específicos podem ter maior poder de barganha. O custo de troca de um software ou de um especialista chave pode ser relevante.
 
-### Impacto:
+**Impacto:**
+
 - **Controle de preços:** O custo dos honorários dos profissionais e das licenças de software pode impactar a estrutura de custos da W1. No entanto, a W1 tem flexibilidade para buscar diferentes fornecedores.
 - **Matérias-primas críticas:** As "matérias-primas" são o conhecimento técnico e a experiência. A escassez de profissionais altamente qualificados no mercado pode dar a eles maior poder de barganha salarial ou de honorários.
 
----
 
-## 4. Poder de Barganha dos Clientes
+
+#### 4. Poder de Barganha dos Clientes
 
 **Sensibilidade a preços:** Alta a Moderada
 
@@ -91,48 +92,14 @@ A W1 é uma empresa de consultoria financeira, possuindo um ecossistema diverso,
 - **Custos de troca:** Para o cliente, o custo de troca de uma consultoria pode não ser tão alto antes do início do projeto, mas se torna relevante após o processo ser iniciado, o que pode diminuir um pouco seu poder de barganha durante a execução do projeto.
 - **Poder de negociação:** Clientes com um patrimônio muito elevado podem ter maior poder de negociação devido ao potencial de receita que representam.
 
----
 
-## 5. Ameaça de Produtos Substitutos
+#### 5. Ameaça de Produtos Substitutos
 
 **Tendências:** Moderada
 
 - **Tecnologia:** A tecnologia pode oferecer alternativas parciais. Plataformas digitais ou softwares de planejamento financeiro podem, em teoria, automatizar algumas etapas do planejamento sucessório, embora não substituam a consultoria jurídica e estratégica personalizada. Modelos de gestão patrimonial automatizados ou robôs-advisors podem ser considerados substitutos para aspectos mais gerais do planejamento, mas não para a complexidade de uma holding patrimonial.
 - **Mudanças de hábito:** A busca por soluções mais simples e rápidas pode levar clientes a optar por alternativas menos complexas que uma holding, como testamentos, doações diretas ou seguros de vida, se bem que estes raramente oferecem os mesmos benefícios fiscais e de gestão.
 - **Autogestão:** Em alguns casos, famílias podem tentar gerir o patrimônio por conta própria, utilizando apenas os serviços de um contador ou advogado generalista, sem uma consultoria especializada em holdings.
-
----
-
-## Fontes de Pesquisa Sugeridas
-
-### Associações de profissionais:
-- IBGC (Instituto Brasileiro de Governança Corporativa)
-- OAB (Ordem dos Advogados do Brasil) e conselhos regionais
-- CFC (Conselho Federal de Contabilidade)
-- ANBIMA (Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais)
-
-### Relatórios de mercado e consultorias:
-- PwC, Deloitte, KPMG, EY
-- Empresas de pesquisa de mercado
-
-### Publicações especializadas e acadêmicas:
-- Revistas e periódicos jurídicos
-- Artigos acadêmicos e teses sobre planejamento patrimonial e governança familiar
-
-### Notícias e análises de mercado:
-- Valor Econômico, Exame, Infomoney
-
----
-
-#### Fontes Adicionais para Validação
-
-##### Tributação de Holdings:
-- Receita Federal - Instrução Normativa 1.634/2016
-
-##### Jurisprudência:
-- STJ - Recurso Especial 1.781.741
-
-
 
 ## 2.2 Análise SWOT
 
@@ -192,6 +159,8 @@ Olhando para o contexto da W1, foram identificados os seguintes pontos:
     Crises econômicas podem adiar decisões sobre planejamento patrimonial, reduzindo a entrada de novos clientes.
 
 ## 2.3 Solução
+
+Esta subseção (2.3) apresentará a descrição da solução e do projeto desenvolvido.
 
 Pensando na criação de holdings, é fundamental entender o que elas representam. Basicamente, uma holding é uma empresa cujo principal objetivo é "segurar" participações em outras empresas ou gerir patrimônios. No contexto do mercado financeiro, como o da W1, isso significa que uma holding detém ações de diversas outras companhias, além de bens e ativos (Meneses, 2024).
 
@@ -280,17 +249,17 @@ Os wireframes desenvolvidos para o MVP da aplicação tiveram como objetivo estr
 
 Foram criados wireframes para as seguintes telas:
 
-- Login: tela inicial para acesso à plataforma, com campos de autenticação.
+- **Login:** tela inicial para acesso à plataforma, com campos de autenticação.
 
-- Menu principal: painel de navegação com acesso às seções de Investimentos, Patrimônio, Holdings e Perfil.
+- **Menu principal:** painel de navegação com acesso às seções de Investimentos, Patrimônio, Holdings e Perfil.
 
-- Investimentos: layout com cards ou gráficos representando os ativos simulados.
+- **Investimentos:** layout com cards ou gráficos representando os ativos simulados.
 
-- Patrimônio: exibição do patrimônio consolidado da holding simulada.
+- **Patrimônio:** exibição do patrimônio consolidado da holding simulada.
 
-- Holdings: tela com opções para criar e editar estruturas de holding, facilitando a visualização do planejamento sucessório.
+- **Holdings:** tela com opções para criar e editar estruturas de holding, facilitando a visualização do planejamento sucessório.
 
-- Perfil: espaço destinado às informações do usuário e configurações da conta.
+- **Perfil:** espaço destinado às informações do usuário e configurações da conta.
 
 Os wireframes foram desenvolvidos utilizando a ferramenta Figma, priorizando uma disposição intuitiva dos elementos para otimizar a usabilidade e reduzir a curva de aprendizado dos usuários. Você pode acessá-los com maior qualidade pelo [link](https://www.figma.com/design/GyiMEXQTwchJMQOMG1L2Ld/WIREFRAMES---HACKATON-W1?node-id=1-761&t=vxZKedk5NmvA8IYq-1).
 
@@ -342,14 +311,22 @@ Após o login, o usuário visualiza um resumo geral de seus investimentos e patr
 
 Presente em todas as telas principais, o menu lateral é acessado pelas três barras no topo esquerdo e permite navegar rapidamente entre as seções: Holdings, Chat, Menu, Investimentos e Patrimônio.
 
-Localizado no canto superior direito, o avatar do usuário abre opções para acessar o perfil e efetuar logout de forma segura.
+Localizado no canto superior direito, o avatar do usuário abre opções para acessar o perfil (Figura 7) e efetuar logout de forma segura.
+
+<div align="center">
+   <sub>Figura 7: Tela de Login</sub><br>
+   <img src="/assets/site/login.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
 
 **Tela "Meus Investimentos"**
 
 Exibe uma lista dos investimentos cadastrados, juntamente com gráficos que mostram a distribuição e evolução. Também é possível adicionar novos investimentos.
 
 <div align="center">
-   <sub>Figura 7: Tela de Investimentos</sub><br>
+   <sub>Figura 8: Tela de Investimentos</sub><br>
    <img src="/assets/site/investimento.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -360,7 +337,7 @@ Exibe uma lista dos investimentos cadastrados, juntamente com gráficos que most
 Nesta tela, formulário com campos detalhados para cadastro de novos investimentos, incluindo nome, tipo, valor, data de aquisição e rentabilidade esperada, o que pode ser observado na figura abaixo.
 
 <div align="center">
-   <sub>Figura 8: Tela de Novo Investimento</sub><br>
+   <sub>Figura 9: Tela de Novo Investimento</sub><br>
    <img src="/assets/site/novoInvestimento.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -371,7 +348,7 @@ Nesta tela, formulário com campos detalhados para cadastro de novos investiment
 Lista visual dos bens do usuário, como imóveis, veículos e empresas. Interface focada em clareza e organização.
 
 <div align="center">
-   <sub>Figura 9: Tela de Patrimônios</sub><br>
+   <sub>Figura 10: Tela de Patrimônios</sub><br>
    <img src="/assets/site/patrimonio.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -382,7 +359,7 @@ Lista visual dos bens do usuário, como imóveis, veículos e empresas. Interfac
 Nesta tela, formulário intuitivo para registrar novos bens patrimoniais, com campos como tipo, valor, data e localização, o que pode ser observado na figura abaixo.
 
 <div align="center">
-   <sub>Figura 10: Tela de Novo Patrimônio</sub><br>
+   <sub>Figura 11: Tela de Novo Patrimônio</sub><br>
    <img src="/assets/site/novoPatrimonio.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -390,10 +367,10 @@ Nesta tela, formulário intuitivo para registrar novos bens patrimoniais, com ca
 
 **Tela de Holdings**
 
-A tela de Holdings (Figura 11) oferece uma visão consolidada das holdings criadas pelo usuário, organizando os ativos que compõem cada estrutura patrimonial. Essa tela é um ponto central para visualizar como o patrimônio está distribuído entre diferentes holdings e seus respectivos ativos.
+A tela de Holdings (Figura 12) oferece uma visão consolidada das holdings criadas pelo usuário, organizando os ativos que compõem cada estrutura patrimonial. Essa tela é um ponto central para visualizar como o patrimônio está distribuído entre diferentes holdings e seus respectivos ativos.
 
 <div align="center">
-   <sub>Figura 11: Tela de Holdings</sub><br>
+   <sub>Figura 12: Tela de Holdings</sub><br>
    <img src="/assets/site/holdings.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -404,7 +381,7 @@ Na parte inferior da interface, há uma barra de navegação fixa com três aç�
 - Visualizar Holding: permite abrir os detalhes de uma holding específica, acessando seus ativos, histórico e valor total.
 
 <div align="center">
-   <sub>Figura 12: Tela de Visualizar Holdings</sub><br>
+   <sub>Figura 13: Tela de Visualizar Holdings</sub><br>
    <img src="/assets/site/visualizarHoldings.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -413,7 +390,7 @@ Na parte inferior da interface, há uma barra de navegação fixa com três aç�
 - Adicionar Ativo: redireciona para a tela de cadastro de novos ativos dentro da holding.
 
 <div align="center">
-   <sub>Figura 13: Tela de Novo Ativo</sub><br>
+   <sub>Figura 14: Tela de Novo Ativo</sub><br>
    <img src="/assets/site/novoAtivo.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -422,7 +399,7 @@ Na parte inferior da interface, há uma barra de navegação fixa com três aç�
 - Ir para Ativos: leva o usuário para a tela geral de ativos, onde pode visualizar todos os investimentos fora do contexto da holding.
 
 <div align="center">
-   <sub>Figura 14: Tela de Ativos</sub><br>
+   <sub>Figura 15: Tela de Ativos</sub><br>
    <img src="/assets/site/ativo.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -435,7 +412,7 @@ Essa barra torna a navegação mais rápida e intuitiva, especialmente para usu�
 Nesta tela, formulário intuitivo para registrar novas holdings, com campos como nome, integrantes, descrição, bens a incluir e upload de documentos, o que pode ser observado na figura abaixo.
 
 <div align="center">
-   <sub>Figura 15: Tela de Ativos</sub><br>
+   <sub>Figura 16: Tela de Ativos</sub><br>
    <img src="/assets/site/criarHolding.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -450,7 +427,7 @@ Essa IA atuaria como um assistente consultivo, guiando o cliente por meio de per
 Entretanto, essa funcionalidade ainda não foi implementada nesta versão da aplicação. A interface do chat foi incluída como um placeholder visual, indicando o potencial da ferramenta para futuras iterações.
 
 <div align="center">
-   <sub>Figura 16: Tela de Chat</sub><br>
+   <sub>Figura 17: Tela de Chat</sub><br>
    <img src="/assets/site/chat.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
