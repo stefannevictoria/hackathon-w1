@@ -176,11 +176,149 @@ Imagens ou links para o protótipo com design final da aplicação.
 
 # <a name="c4"></a>4. Desenvolvimento da Aplicação Web
 
+Nesta seção, detalhamos o processo de desenvolvimento da aplicação web, como a implementação das funcionalidades propostas. Buscamos garantir uma arquitetura escalável, código limpo e uma experiência de usuário intuitiva. 
+
 ## 4.1 Versão Final da Aplicação Web
 
-Descrição das funcionalidades implementadas, tecnologias utilizadas e instruções de uso.
+Nessa subseção (4.1) apresenta-se uma visão geral da solução implementada e das principais funcionalidades.
 
+**Tela de Login**
 
+A tela de entrada do sistema (Figura 3) permite que o usuário acesse sua conta utilizando e-mail ou CPF e senha. A interface é simples e acessível, garantindo uma experiência fluida mesmo para públicos menos familiarizados com tecnologia.
+
+<div align="center">
+   <sub>Figura 3: Tela de Login</sub><br>
+   <img src="/assets/site/login.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+**Dashboard Inicial (Tela de Menu)**
+
+Após o login, o usuário visualiza um resumo geral de seus investimentos e patrimônio (Figura 4). A navegação é feita por botões claros e diretos, levando para as áreas de "Meus Investimentos" e "Meu Patrimônio".
+
+<div align="center">
+   <sub>Figura 4: Tela de Menu</sub><br>
+   <img src="/assets/site/menu.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+Presente em todas as telas principais, o menu lateral é acessado pelas três barras no topo esquerdo e permite navegar rapidamente entre as seções: Holdings, Chat, Menu, Investimentos e Patrimônio.
+
+Localizado no canto superior direito, o avatar do usuário abre opções para acessar o perfil e efetuar logout de forma segura.
+
+**Tela "Meus Investimentos"**
+
+Exibe uma lista dos investimentos cadastrados, juntamente com gráficos que mostram a distribuição e evolução. Também é possível adicionar novos investimentos.
+
+<div align="center">
+   <sub>Figura 5: Tela de Investimentos</sub><br>
+   <img src="/assets/site/investimento.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+**Adicionar Novo Investimento**
+
+Nesta tela, formulário com campos detalhados para cadastro de novos investimentos, incluindo nome, tipo, valor, data de aquisição e rentabilidade esperada, o que pode ser observado na figura abaixo.
+
+<div align="center">
+   <sub>Figura 6: Tela de Novo Investimento</sub><br>
+   <img src="/assets/site/novoInvestimento.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+**Tela "Meu Patrimônio"**
+
+Lista visual dos bens do usuário, como imóveis, veículos e empresas. Interface focada em clareza e organização.
+
+<div align="center">
+   <sub>Figura 7: Tela de Patrimônios</sub><br>
+   <img src="/assets/site/patrimonio.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+**Adicionar Novo Patrimônio**
+
+Nesta tela, formulário intuitivo para registrar novos bens patrimoniais, com campos como tipo, valor, data e localização, o que pode ser observado na figura abaixo.
+
+<div align="center">
+   <sub>Figura 8: Tela de Novo Patrimônio</sub><br>
+   <img src="/assets/site/novoPatrimonio.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+**Tela de Holdings**
+
+A tela de Holdings (Figura 9) oferece uma visão consolidada das holdings criadas pelo usuário, organizando os ativos que compõem cada estrutura patrimonial. Essa tela é um ponto central para visualizar como o patrimônio está distribuído entre diferentes holdings e seus respectivos ativos.
+
+<div align="center">
+   <sub>Figura 9: Tela de Holdings</sub><br>
+   <img src="/assets/site/holdings.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+Na parte inferior da interface, há uma barra de navegação fixa com três ações principais:
+
+- Visualizar Holding: permite abrir os detalhes de uma holding específica, acessando seus ativos, histórico e valor total.
+
+<div align="center">
+   <sub>Figura 10: Tela de Visualizar Holdings</sub><br>
+   <img src="/assets/site/visualizarHoldings.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+- Adicionar Ativo: redireciona para a tela de cadastro de novos ativos dentro da holding.
+
+<div align="center">
+   <sub>Figura 11: Tela de Novo Ativo</sub><br>
+   <img src="/assets/site/novoAtivo.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+- Ir para Ativos: leva o usuário para a tela geral de ativos, onde pode visualizar todos os investimentos fora do contexto da holding.
+
+<div align="center">
+   <sub>Figura 12: Tela de Ativos</sub><br>
+   <img src="/assets/site/ativo.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+Essa barra torna a navegação mais rápida e intuitiva, especialmente para usuários que desejam manipular ou analisar seus ativos em diferentes contextos.
+
+**Adicionar Nova Holding**
+
+Nesta tela, formulário intuitivo para registrar novas holdings, com campos como nome, integrantes, descrição, bens a incluir e upload de documentos, o que pode ser observado na figura abaixo.
+
+<div align="center">
+   <sub>Figura 13: Tela de Ativos</sub><br>
+   <img src="/assets/site/criarHolding.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+**Tela de Chat**
+
+ A funcionalidade de chat foi concebida como uma IA interativa capaz de simular a criação de holdings, demonstrar seus benefícios tributários e sucessórios, e gerar relatórios personalizados com base nas informações fornecidas pelo usuário.
+
+Essa IA atuaria como um assistente consultivo, guiando o cliente por meio de perguntas simples para montar uma estrutura patrimonial ideal, sugerindo estratégias e apresentando comparativos com e sem holding.
+
+Entretanto, essa funcionalidade ainda não foi implementada nesta versão da aplicação. A interface do chat foi incluída como um placeholder visual, indicando o potencial da ferramenta para futuras iterações.
+
+<div align="center">
+   <sub>Figura 14: Tela de Chat</sub><br>
+   <img src="/assets/site/chat.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
 
 # <a name="c5"></a>5. Conclusões e Trabalhos Futuros
 
