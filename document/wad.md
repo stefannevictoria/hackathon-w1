@@ -196,11 +196,23 @@ Foram criados wireframes para as seguintes telas:
 
 - Perfil: espaço destinado às informações do usuário e configurações da conta.
 
-Os wireframes foram desenvolvidos utilizando a ferramenta Figma, priorizando uma disposição intuitiva dos elementos para otimizar a usabilidade e reduzir a curva de aprendizado dos usuários. Você pode acessá-los com melhor qualidade pelo [link](https://www.figma.com/design/GyiMEXQTwchJMQOMG1L2Ld/WIREFRAMES---HACKATON-W1?node-id=1-761&t=vxZKedk5NmvA8IYq-1).
+Os wireframes foram desenvolvidos utilizando a ferramenta Figma, priorizando uma disposição intuitiva dos elementos para otimizar a usabilidade e reduzir a curva de aprendizado dos usuários. Você pode acessá-los com maior qualidade pelo [link](https://www.figma.com/design/GyiMEXQTwchJMQOMG1L2Ld/WIREFRAMES---HACKATON-W1?node-id=1-761&t=vxZKedk5NmvA8IYq-1).
 
 ## 3.2 Guia de Estilos
 
-Paleta de cores, fontes, ícones e componentes UI utilizados.
+Nesta subseção (3.2) detalhamos o guia de estilos que define a paleta de cores, fontes, ícones e componentes de interface do usuário (UI) utilizados na aplicação, garantindo consistência visual e uma identidade de marca coesa.
+
+<div align="center">
+   <sub>Figura 3: Guia de Estilos da aplicação</sub><br>
+   <img src="/assets/styleguide-w1.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Autoral, 2025</sup>
+ </div>
+
+O guia de estilos da aplicação W1 estabelece uma identidade visual sólida e coerente, fundamentada em uma paleta de cores sóbria com tons de azul escuro, branco e preto, transmitindo profissionalismo e confiança. A tipografia escolhida, Inter, combina legibilidade e modernidade, sendo aplicada em diferentes pesos para hierarquizar informações com clareza. Os componentes de UI, como botões e campos de entrada, seguem um design minimalista e funcional, garantindo consistência na experiência do usuário. Ícones personalizados reforçam a identidade visual e facilitam a navegação. 
+
+É possível acessar o guia com maior qualidade através do [link](https://www.figma.com/design/4hiCaAiI9t7x4Rvt3Fnzem/GUIA-DE-ESTILOS---HACKATON-W1?node-id=0-1&t=t3oG3TwXxnJ7Gc0p-1).
+
 
 # <a name="c4"></a>4. Desenvolvimento da Aplicação Web
 
