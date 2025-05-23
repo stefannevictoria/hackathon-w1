@@ -42,3 +42,5 @@ Rode o seguinte comando para iniciar o servidor de desenvolvimento:
 Após isso, o projeto estará disponível no endereço: <http://localhost:3000>
 
 Abra esse link em qualquer navegador (como Chrome, Firefox, Edge etc.) para visualizar a aplicação rodando localmente.
+
+O projeto também está disponível pelo deploy no link: <https://hackathon-w1-3vei.vercel.app>
