@@ -42,7 +42,18 @@ Olhando para o contexto da W1, foram identificados os seguintes pontos:
 
 ## 2.3 Solução
 
-Descrição da solução proposta, seus diferenciais e impacto esperado.
+Pensando na criação de holdings, é fundamental entender o que elas representam. Basicamente, uma holding é uma empresa cujo principal objetivo é "segurar" participações em outras empresas ou gerir patrimônios. No contexto do mercado financeiro, como o da W1, isso significa que uma holding detém ações de diversas outras companhias, além de bens e ativos (Meneses, 2024).
+
+Especificamente, o tipo de holding que se alinha com a aplicação web ecom a W1 é a holding patrimonial. Ela é criada para administrar o patrimônio de uma pessoa física, com o grande atrativo de reduzir ou até anular a carga tributária sobre esses bens, dependendo do caso. Esse benefício fiscal ocorre porque, muitas vezes, não há declaração de Imposto de Renda sobre a holding em si, já que ela não gera receita a ser tributada; a cobrança de impostos se aplica apenas sobre os lucros gerados, por exemplo (Fularani, 2024). Essa característica torna a holding patrimonial uma ferramenta tão atraente para a gestão e otimização de bens.
+
+A solução proposta pelo Grupo PK é a prototipagem de uma aplicação web de simulação de holdings, focada em transformar a experiência do cliente W1. Esta aplicação, que serve como um produto mínimo viável (MVP), oferece uma interface intuitiva e amigável para explorar os benefícios de uma holding.
+
+Nossa aplicação web compreende as seguintes páginas principais: Login (para acesso seguro à plataforma), Inicial (visão geral e pontos de partida para a navegação), Meus Patrimônios (gerenciamento e visualização dos bens do usuário), Chat (comunicação e suporte, funcionalidade para futura implementação), Investimentos (seção dedicada a cenários de investimento), Holdings (detalhes e simulações de estruturas de holding) e Perfil (personalização e informações do usuário). Detalhes específicos sobre o fluxo, informações e funcionalidades de cada tela serão apresentados [aqui](#41-versão-final-da-aplicação-web).
+
+É importante ressaltar que o foco inicial deste projeto é um front-end (interface do usuário) robusto. Embora não haja, nesta fase, integração com APIs de inteligência artificial de deep learning (aprendizado profundo, que envolve treinamento especializado com grandes volumes de dados para reconhecimento de padrões) (AWS, s.d), a arquitetura da aplicação já está preparada para uma futura expansão. A ideia é que, em uma próxima fase, a aplicação possa enviar os dados fornecidos pelo usuário a uma inteligência artificial que, com base em sua base de dados, identifique e sugira as melhores estruturas de holding para cada cenário, mas futuros passos serão descritos na [seção 5](#5-conclusões-e-trabalhos-futuros).
+
+Toda a concepção do projeto foi pautada na experiência do usuário (UX) e na utilidade da aplicação. Buscamos um design conciso, coerente, leve, ágil, útil e prático, garantindo que a navegação seja fluida e que a curiosidade do usuário sobre a criação de uma holding seja plenamente sanada através da simulação e apresentação dos benefícios.
+
 
 ## 2.4 Canvas de Proposta de Valor
 
@@ -80,3 +91,10 @@ Reflexão sobre o processo, principais aprendizados e próximos passos para evol
 
 
 # <a name="c6"></a>6. Referências
+
+
+FURLANI, Bruna. Holding Patrimonial: Guia Completo sobre Como Funciona. InfoMoney, 2024. Disponível em: &lt;https://www.infomoney.com.br/guias/holding-patrimonial/#:~:text=Assim%20como%20o%20testamento%20e,a%20serem%20partilhados%20na%20heran%C3%A7a.>. Acesso em: 22 de maio de 2025.
+
+MENESES, Amanda. Guia Completo sobre Holding. InvestNews, 2024. Disponível em: https://investnews.com.br/guias/holding/. Acesso em: 22 de maio de 2025.
+
+AMAZON WEB SERVICES, INC. O que é o aprendizado profundo em IA? Amazon Web Services (AWS), s.d. Disponível em: <https://aws.amazon.com/pt/what-is/deep-learning/#:~:text=e%20aprendizado%20profundo?-,O%20que%20%C3%A9%20o%20aprendizado%20profundo%20em%20IA?,arquivo%20de%20som%20em%20texto.>. Acesso em: 23 de maio de 2025.
