@@ -203,7 +203,7 @@ Os wireframes foram desenvolvidos utilizando a ferramenta Figma, priorizando uma
 Nesta subseção (3.2) detalhamos o guia de estilos que define a paleta de cores, fontes, ícones e componentes de interface do usuário (UI) utilizados na aplicação, garantindo consistência visual e uma identidade de marca coesa.
 
 <div align="center">
-   <sub>Figura 3: Guia de Estilos da aplicação</sub><br>
+   <sub>Figura 4: Guia de Estilos da aplicação</sub><br>
    <img src="/assets/styleguide-w1.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -224,10 +224,10 @@ Nessa subseção (4.1) apresenta-se uma visão geral da solução implementada e
 
 **Tela de Login**
 
-A tela de entrada do sistema (Figura 3) permite que o usuário acesse sua conta utilizando e-mail ou CPF e senha. A interface é simples e acessível, garantindo uma experiência fluida mesmo para públicos menos familiarizados com tecnologia.
+A tela de entrada do sistema (Figura 5) permite que o usuário acesse sua conta utilizando e-mail ou CPF e senha. A interface é simples e acessível, garantindo uma experiência fluida mesmo para públicos menos familiarizados com tecnologia.
 
 <div align="center">
-   <sub>Figura 3: Tela de Login</sub><br>
+   <sub>Figura 5: Tela de Login</sub><br>
    <img src="/assets/site/login.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -235,10 +235,10 @@ A tela de entrada do sistema (Figura 3) permite que o usuário acesse sua conta 
 
 **Dashboard Inicial (Tela de Menu)**
 
-Após o login, o usuário visualiza um resumo geral de seus investimentos e patrimônio (Figura 4). A navegação é feita por botões claros e diretos, levando para as áreas de "Meus Investimentos" e "Meu Patrimônio".
+Após o login, o usuário visualiza um resumo geral de seus investimentos e patrimônio (Figura 6). A navegação é feita por botões claros e diretos, levando para as áreas de "Meus Investimentos" e "Meu Patrimônio".
 
 <div align="center">
-   <sub>Figura 4: Tela de Menu</sub><br>
+   <sub>Figura 6: Tela de Menu</sub><br>
    <img src="/assets/site/menu.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -253,7 +253,7 @@ Localizado no canto superior direito, o avatar do usuário abre opções para ac
 Exibe uma lista dos investimentos cadastrados, juntamente com gráficos que mostram a distribuição e evolução. Também é possível adicionar novos investimentos.
 
 <div align="center">
-   <sub>Figura 5: Tela de Investimentos</sub><br>
+   <sub>Figura 7: Tela de Investimentos</sub><br>
    <img src="/assets/site/investimento.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -264,7 +264,7 @@ Exibe uma lista dos investimentos cadastrados, juntamente com gráficos que most
 Nesta tela, formulário com campos detalhados para cadastro de novos investimentos, incluindo nome, tipo, valor, data de aquisição e rentabilidade esperada, o que pode ser observado na figura abaixo.
 
 <div align="center">
-   <sub>Figura 6: Tela de Novo Investimento</sub><br>
+   <sub>Figura 8: Tela de Novo Investimento</sub><br>
    <img src="/assets/site/novoInvestimento.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -275,7 +275,7 @@ Nesta tela, formulário com campos detalhados para cadastro de novos investiment
 Lista visual dos bens do usuário, como imóveis, veículos e empresas. Interface focada em clareza e organização.
 
 <div align="center">
-   <sub>Figura 7: Tela de Patrimônios</sub><br>
+   <sub>Figura 9: Tela de Patrimônios</sub><br>
    <img src="/assets/site/patrimonio.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -286,7 +286,7 @@ Lista visual dos bens do usuário, como imóveis, veículos e empresas. Interfac
 Nesta tela, formulário intuitivo para registrar novos bens patrimoniais, com campos como tipo, valor, data e localização, o que pode ser observado na figura abaixo.
 
 <div align="center">
-   <sub>Figura 8: Tela de Novo Patrimônio</sub><br>
+   <sub>Figura 10: Tela de Novo Patrimônio</sub><br>
    <img src="/assets/site/novoPatrimonio.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -294,10 +294,10 @@ Nesta tela, formulário intuitivo para registrar novos bens patrimoniais, com ca
 
 **Tela de Holdings**
 
-A tela de Holdings (Figura 9) oferece uma visão consolidada das holdings criadas pelo usuário, organizando os ativos que compõem cada estrutura patrimonial. Essa tela é um ponto central para visualizar como o patrimônio está distribuído entre diferentes holdings e seus respectivos ativos.
+A tela de Holdings (Figura 11) oferece uma visão consolidada das holdings criadas pelo usuário, organizando os ativos que compõem cada estrutura patrimonial. Essa tela é um ponto central para visualizar como o patrimônio está distribuído entre diferentes holdings e seus respectivos ativos.
 
 <div align="center">
-   <sub>Figura 9: Tela de Holdings</sub><br>
+   <sub>Figura 11: Tela de Holdings</sub><br>
    <img src="/assets/site/holdings.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -308,7 +308,7 @@ Na parte inferior da interface, há uma barra de navegação fixa com três aç�
 - Visualizar Holding: permite abrir os detalhes de uma holding específica, acessando seus ativos, histórico e valor total.
 
 <div align="center">
-   <sub>Figura 10: Tela de Visualizar Holdings</sub><br>
+   <sub>Figura 12: Tela de Visualizar Holdings</sub><br>
    <img src="/assets/site/visualizarHoldings.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -317,7 +317,7 @@ Na parte inferior da interface, há uma barra de navegação fixa com três aç�
 - Adicionar Ativo: redireciona para a tela de cadastro de novos ativos dentro da holding.
 
 <div align="center">
-   <sub>Figura 11: Tela de Novo Ativo</sub><br>
+   <sub>Figura 13: Tela de Novo Ativo</sub><br>
    <img src="/assets/site/novoAtivo.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -326,7 +326,7 @@ Na parte inferior da interface, há uma barra de navegação fixa com três aç�
 - Ir para Ativos: leva o usuário para a tela geral de ativos, onde pode visualizar todos os investimentos fora do contexto da holding.
 
 <div align="center">
-   <sub>Figura 12: Tela de Ativos</sub><br>
+   <sub>Figura 14: Tela de Ativos</sub><br>
    <img src="/assets/site/ativo.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -339,7 +339,7 @@ Essa barra torna a navegação mais rápida e intuitiva, especialmente para usu�
 Nesta tela, formulário intuitivo para registrar novas holdings, com campos como nome, integrantes, descrição, bens a incluir e upload de documentos, o que pode ser observado na figura abaixo.
 
 <div align="center">
-   <sub>Figura 13: Tela de Ativos</sub><br>
+   <sub>Figura 15: Tela de Ativos</sub><br>
    <img src="/assets/site/criarHolding.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
@@ -354,7 +354,7 @@ Essa IA atuaria como um assistente consultivo, guiando o cliente por meio de per
 Entretanto, essa funcionalidade ainda não foi implementada nesta versão da aplicação. A interface do chat foi incluída como um placeholder visual, indicando o potencial da ferramenta para futuras iterações.
 
 <div align="center">
-   <sub>Figura 14: Tela de Chat</sub><br>
+   <sub>Figura 16: Tela de Chat</sub><br>
    <img src="/assets/site/chat.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Autoral, 2025</sup>
