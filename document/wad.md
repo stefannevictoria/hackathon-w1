@@ -24,9 +24,7 @@
 
 # <a name="c1"></a>1. Introdução
 
-Breve introdução sobre o projeto, seu contexto, objetivos e público-alvo.
-
-
+Este documento detalha o projeto de uma aplicação web de simulação de holdings, desenvolvida pelo Grupo PK com foco em otimizar a experiência do cliente da W1. A aplicação visa oferecer uma ferramenta intuitiva para que usuários possam explorar os benefícios da criação de holdings. O projeto se insere no contexto de inovação, buscando atender a um público que busca maior autonomia e clareza na gestão de seus patrimônios.
 
 # <a name="c2"></a>2. Visão Geral da Aplicação Web
 
